@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital clock</title>
+    <style>
+        @font-face {
+    font-family: 'digital-clock';
+    src: url('digital.ttf');
+}
+        body{
+            font-family: 'digital-clock';
+            background: black;
+        }
+        div{
+            padding-top: 140px;
+            
+        }
+        span{
+            color: red;
+            font-size: 8rem;
+            text-align: center;
+            display: block;
+        }
+        @media(max-width:765px){
+            span{
+                font-size: 6rem;
+            }
+        }
+        @media(max-width:765px){
+            span{
+                font-size: 3.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span id="time"></span>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
