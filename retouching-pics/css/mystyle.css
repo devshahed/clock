@@ -1,0 +1,21 @@
+/*===============Theme CSS====================*/
+/*=========Our service part==========*/
+.our-service-img{
+    outline: 26px solid #4296f1;
+}
+.service-icon:hover {
+    background: #4297f183;
+}
+/*=========why retouching pics part==========*/
+#why-retouching-pics{
+    border-top: 3px solid rgb(112, 110, 110);
+    border-bottom: 3px solid rgb(112, 110, 110);
+    padding: 40px 0;
+}
+/*==============Global=================*/
+.p-28 {
+    padding: 28px;
+  }
+  .p-50{
+      padding: 50px;
+  }
